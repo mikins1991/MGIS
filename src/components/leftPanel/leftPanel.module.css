@@ -1,0 +1,19 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.button {
+  width: 100%;
+  background-color: azure;
+  height: 50px;
+}
+
+.button:hover {
+  background-color: aqua;
+}
+
+.button[active='true'] {
+  background-color: blue;
+}
